@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 20px;
+  background-position: center;
+  background-image: url("https://300mind.studio/blog/wp-content/uploads/2025/06/static-background.webp"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  color: #fe0000;
+}
+#first-h1{
+  color: yellow;
+  margin: 50px 20px 20px 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+#gameArea {
+  width: 60%;
+  height: 625px;
+  background: white;
+  border: 3px solid black;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#box {
+  width: 60px;
+  height: 60px;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: url("image6.jpeg");  
+  object-fit:fill;
+}
+#box2{
+
+  width: 60px;
+  height: 60px;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: url("image5.jpg");  
+  object-fit:fill;
+
+}
+
+#startBtn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(167, 5, 167);
+}
+
+
+#message {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #1a73e8;
+}
+
